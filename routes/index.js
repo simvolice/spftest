@@ -15,6 +15,14 @@ router.get('/destination', function(req, res, next) {
           "body": {
               "testspf": "<h1>Hello From SPF</h1>"
           },
+
+          "attr": {
+              "demolink": {
+                  "href": "/"
+
+              }
+
+          },
           "foot": "<!-- Scripts -->"
       }
 
